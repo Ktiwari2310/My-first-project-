@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/index.css">
+  <title>Project</title>
+</head>
+
+<body>
+  <form action="/submit" method="POST" novalidate></form>
+  <h1>User Registration Form</h1>
+  <h2>Personal details </h2>
+  Name: <input type="text" placeholder="Username"><br>
+  Email: <input type="email"><br>
+  Password: <input type="password" name="" id="" placeholder="Password"><br>
+  Age: <input type="number" name="" id=""><br>
+  Phone number: <input type="number" name="" id=""><br>
+  
+  Gender: <input type="radio" name="Gender" id="Female">Female
+  <input type="radio" name="Gender" id="Male">Male
+  <input type="radio" name="Gender" id="Other">Other
+  <br>
+  Interest: <input type="checkbox" name="Painting" id="Painting">Painting
+  <input type="checkbox" name="Writing" id="Writing">Writing
+  <input type="checkbox" name="Singing" id="Singing">Singing
+  <input type="checkbox" name="Travelling" id="Travelling">Travelling
+  <br>
+  Country:
+  <select name="Country">
+    <option value="" disabled selected>Select a country</option>
+    <option value="option1">India</option>
+    <option value="option2">UK</option>
+    <option value="option3">USA</option>
+    <br>
+    Bio:
+    <textarea name="Bio" id="Bio" cols="50" rows="5" placeholder="Write something about yourself" required></textarea>
+    <button type="submit">Register</button>
+    <button type="reset">Reset</button>
+  </select>
+</body>
+
+</html>
